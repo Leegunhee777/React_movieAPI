@@ -1,0 +1,42 @@
+.SearchBoxImg{
+    margin-top: 150px;
+    width: 100%;
+    height: 180px;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    animation-name: movingPara;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes movingPara{
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.5;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+    
+    80% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

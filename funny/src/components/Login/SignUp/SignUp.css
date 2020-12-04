@@ -1,0 +1,11 @@
+.poptitle {
+
+  color:azure;
+  font-size: 30px;
+  border-radius: 5px;
+  border:2px solid white;
+  width: 200px;
+  text-align:'center';
+  padding-top: 0px;
+ margin-left: 50px;
+}
